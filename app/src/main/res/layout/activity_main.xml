@@ -68,28 +68,36 @@
         android:layout_weight="2"
         android:gravity="center"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RADAR CONTROL"
-            android:gravity="center"
-            android:textSize="28sp"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:padding="16dp">
-            <ImageView
-                android:id="@+id/left"
-                android:layout_width="80dp"
+            <TextView
+                android:text="0"
+                android:id="@+id/zero"
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="80dp"
+                android:gravity="center"
                 android:background="?android:selectableItemBackground"
                 android:layout_gravity="center"/>
-            <ImageView
-                android:id="@+id/right"
-                android:layout_width="80dp"
+            <TextView
+                android:id="@+id/fortyfive"
+                android:text="45"
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="80dp"
+                android:gravity="center"
+                android:background="?android:selectableItemBackground"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/ninety"
+                android:text="90"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:gravity="center"
                 android:background="?android:selectableItemBackground"
                 android:layout_gravity="center"/>
 
